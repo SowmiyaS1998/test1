@@ -4,7 +4,7 @@ import pyttsx3
 # pip install PyPDF2 to extract text from pdf
 import PyPDF2
 
-# open the file within the python directory & #open any pdf/book that you want to read for you by your BOT friend to read
+# open the file within the python directory & open any pdf/book that you want to read for you by your BOT friend to read
 reader = open("Attribute_Info.pdf","rb") 
 
 giversays = PyPDF2.PdfFileReader(reader)
